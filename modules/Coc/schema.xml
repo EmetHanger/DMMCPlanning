@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_coc</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_coc` (
+  `cocid` int(11) NOT NULL DEFAULT '0',
+    `coc_no` VARCHAR(32) DEFAULT NULL,
+    `assesment_no` VARCHAR(128) DEFAULT NULL,
+    `fullname` VARCHAR(128) DEFAULT NULL,
+    PRIMARY KEY (`cocid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_coccf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_coccf` (
+  `cocid` int(11) NOT NULL,
+  PRIMARY KEY (`cocid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

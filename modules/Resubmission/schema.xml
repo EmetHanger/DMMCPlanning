@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_resubmission</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_resubmission` (
+  `resubmissionid` int(11) NOT NULL DEFAULT '0',
+    `resubmission_no` VARCHAR(32) DEFAULT NULL,
+    `related_to` INT(19) DEFAULT NULL,
+    `date` DATE DEFAULT NULL,
+    `resubmitted_date` DATE DEFAULT NULL,
+    `reason` TEXT DEFAULT NULL,
+    PRIMARY KEY (`resubmissionid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_resubmissioncf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_resubmissioncf` (
+  `resubmissionid` int(11) NOT NULL,
+  PRIMARY KEY (`resubmissionid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

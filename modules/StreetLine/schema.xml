@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_streetline</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_streetline` (
+  `streetlineid` int(11) NOT NULL DEFAULT '0',
+    `streetline_no` VARCHAR(32) DEFAULT NULL,
+    `assesment_no` VARCHAR(128) DEFAULT NULL,
+    `fullname` VARCHAR(128) DEFAULT NULL,
+    PRIMARY KEY (`streetlineid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_streetlinecf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_streetlinecf` (
+  `streetlineid` int(11) NOT NULL,
+  PRIMARY KEY (`streetlineid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

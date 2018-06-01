@@ -1,0 +1,15 @@
+nbproject/private/
+config.inc.php
+test/templates_c/*
+*.zip
+logs/
+storage/
+test/a/
+nbproject/
+user_privileges/
+index.html
+cache/tempModuleDesigner/1488704027/
+delete_module.php
+languages/es_es/*
+languages/fr_fr/*
+languages/pt_br/*

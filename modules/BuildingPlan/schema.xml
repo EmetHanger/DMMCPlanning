@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_buildingplan</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_buildingplan` (
+  `buildingplanid` int(11) NOT NULL DEFAULT '0',
+    `buildingplan_no` VARCHAR(32) DEFAULT NULL,
+    `assesment_no` VARCHAR(128) DEFAULT NULL,
+    `fullname` VARCHAR(128) DEFAULT NULL,
+    PRIMARY KEY (`buildingplanid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_buildingplancf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_buildingplancf` (
+  `buildingplanid` int(11) NOT NULL,
+  PRIMARY KEY (`buildingplanid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

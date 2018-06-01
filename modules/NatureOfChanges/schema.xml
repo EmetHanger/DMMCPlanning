@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_natureofchanges</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_natureofchanges` (
+  `natureofchangesid` int(11) NOT NULL DEFAULT '0',
+    `nature_of_changes_no` VARCHAR(128) DEFAULT NULL,
+    `full_name` VARCHAR(128) DEFAULT NULL,
+    PRIMARY KEY (`natureofchangesid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_natureofchangescf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_natureofchangescf` (
+  `natureofchangesid` int(11) NOT NULL,
+  PRIMARY KEY (`natureofchangesid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

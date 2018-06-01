@@ -1,0 +1,37 @@
+[27-Feb-2017 12:45:05 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 12:50:48 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:02:02 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:02:11 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:02:37 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:04:29 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:04:39 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:05:03 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:05:22 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:05:22 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:06:12 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[27-Feb-2017 13:06:12 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home1/radus28/public_html/dmmc/modules/Users/models/Record.php on line 352
+[04-Mar-2017 21:19:40 America/Chicago] PHP Warning:  include_once(../../config.inc.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home1/radus28/public_html/dmmc/PT2070.php on line 6
+[04-Mar-2017 21:19:40 America/Chicago] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../../config.inc.php' for inclusion (include_path='.:/opt/php53/lib/php') in /home1/radus28/public_html/dmmc/PT2070.php on line 6
+[04-Mar-2017 21:19:40 America/Chicago] PHP Notice:  Undefined variable: root_directory in /home1/radus28/public_html/dmmc/PT2070.php on line 7
+[06-Mar-2017 07:42:45 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 07:43:19 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_9.php on line 5
+[06-Mar-2017 07:43:59 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 07:44:04 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_9.php on line 5
+[06-Mar-2017 07:44:22 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 07:44:40 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 07:49:58 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 07:50:56 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 07:52:44 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_9.php on line 5
+[06-Mar-2017 08:01:01 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:01:53 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:02:54 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:06:58 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:10:59 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:12:00 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:28:46 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_9.php on line 5
+[06-Mar-2017 08:28:52 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_9.php on line 5
+[06-Mar-2017 08:34:55 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:35:30 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:35:44 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[06-Mar-2017 08:41:55 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/radus28/public_html/dmmc/user_privileges/sharing_privileges_5.php on line 5
+[12-Mar-2017 15:14:29 UTC] PHP Fatal error:  Call to a member function FetchRow() on a non-object in /home1/radus28/public_html/dmmc/include/database/PearDatabase.php on line 532
