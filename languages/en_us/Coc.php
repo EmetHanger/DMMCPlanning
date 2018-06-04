@@ -47,6 +47,9 @@ $languageStrings = array(
 	'LBL_DRAUGHTSMAN_COMMENTS' => 'Draugtsmans Comment',
 	'LBL_TECHNICAL_OFFICER_COMMENTS' => 'Technical Officers Comment',
 	'LBL_NEED_AUTHORIZATION' => 'Need Authorization',
+        'LBL_STREET' => 'Street',
+    'LBL_WARD_NO' => 'Ward No',
+    'LBL_CITY' => 'City',
 
 
 );
